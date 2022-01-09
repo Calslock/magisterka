@@ -1,0 +1,56 @@
+body{
+    background: #e2e4e3;
+    margin: 10px 10px;
+}
+
+#header{
+    padding: 50px 50px;
+    background-color: #b50000;
+}
+
+#header-logo{
+    width: 1%;
+}
+
+#header-container{
+    width: 100%;
+}
+
+#header-date, #header-login, #header-news-bar{
+    min-height: 25%;
+    text-align: right;
+
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+#header-search-buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+#header-search-buttons input[type=text]{
+    width: 50%;
+    max-height: 100%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#header-search-buttons button{
+    display: inline-block;
+    padding: 0;
+}
+
+#header-login a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#header-date, #header-login{
+    font-size: 25px;
+}
+
+#header-news-bar{
+    font-size: 35px;
+}
