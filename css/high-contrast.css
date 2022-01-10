@@ -1,0 +1,23 @@
+#header{
+    background: black;
+}
+
+#header img{
+    background: #b50000;
+}
+
+#header-date, #header-login, #header-news-bar{
+    color: white;
+}
+
+#header-search-buttons input[type=text]{
+    border: 3px solid yellow;
+}
+
+#header-search-buttons button{
+    border: 3px solid yellow;
+}
+
+#left-section, #right-section{
+    border: 3px solid yellow;
+}

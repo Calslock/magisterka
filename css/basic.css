@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body{
     background: #e2e4e3;
     margin: 10px 10px;
@@ -6,6 +8,7 @@ body{
 #header{
     padding: 50px 50px;
     background-color: #b50000;
+    margin-bottom: 10px;
 }
 
 #header-logo{
@@ -20,7 +23,7 @@ body{
     min-height: 25%;
     text-align: right;
 
-    font-family: Arial, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     color: aliceblue;
 }
 
@@ -53,4 +56,21 @@ body{
 
 #header-news-bar{
     font-size: 35px;
+}
+
+#main-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-section, #right-section{
+    border: 2px solid black;
+    max-width: 25%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
 }

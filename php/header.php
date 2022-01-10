@@ -7,11 +7,11 @@
             </td>
             <td class="tg-0lax" id="header-search-buttons">
                 <label for="searchbar"></label><input type="text" id="searchbar">
-                <button id="font-change"><img src="../img/font-change.png" alt="Change font"></button>
-                <button id="font-small"><img src="../img/font-small.png" alt="Decrease font size"></button>
-                <button id="font-big"><img src="../img/font-big.png" alt="Increase font size"></button>
-                <button id="night-mode"><img src="../img/night-mode.png" alt="Enable night mode"></button>
-                <button id="contrast"><img src="../img/contrast.png" alt="High contrast mode"></button>
+                <button id="font-change" onclick="changefont()"><img src="../img/font-change.png" alt="Change font"></button>
+                <button id="font-small" onclick="changesize(-1)"><img src="../img/font-small.png" alt="Decrease font size"></button>
+                <button id="font-big" onclick="changesize(1)"><img src="../img/font-big.png" alt="Increase font size"></button>
+                <button id="night-mode" onclick="darkmode()"><img src="../img/night-mode.png" alt="Enable night mode"></button>
+                <button id="contrast" onclick="highcontrast()"><img src="../img/contrast.png" alt="High contrast mode"></button>
             </td>
         </tr>
         <tr>
