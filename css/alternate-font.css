@@ -1,3 +1,6 @@
-#header-date, #header-login, #header-news-bar{
+#header-date, #header-login, #header-news-bar,
+#left-section h1, #left-section a,
+#middle-section h1, #middle-section label, #middle-section #article-text, #middle-section #comment-parent, #middle-section h2, #middle-section h3
+{
     font-family: Arial, sans-serif;
 }

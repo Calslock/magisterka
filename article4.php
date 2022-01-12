@@ -5,7 +5,7 @@ include_once("./php/header.php");
 echo('<div id="main-container">');
 include_once("./php/left.php");
 echo('<div id="middle-section">');
-include_once("./php/main.php");
+include_once("./php/article4_stub.php");
 echo('</div>');
 include_once("./php/right.php");
 echo('</div>');

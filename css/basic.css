@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 
 body{
     background: #e2e4e3;
@@ -27,7 +28,7 @@ body{
     color: aliceblue;
 }
 
-#header-search-buttons{
+#header-search-buttons, #article-buttons{
     display: flex;
     justify-content: flex-end;
     gap: 5px;
@@ -40,7 +41,7 @@ body{
     padding: 10px;
 }
 
-#header-search-buttons button{
+#header-search-buttons button, #article-buttons button{
     display: inline-block;
     padding: 0;
 }
@@ -56,11 +57,49 @@ body{
 
 #header-news-bar{
     font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #main-container{
     display: flex;
     justify-content: space-between;
+}
+
+#middle-section{
+    border: 2px solid black;
+    max-width: 50%;
+    min-width: 50%;
+    margin: 0 10px 0 10px;
+    padding: 0 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#article-body{
+    width: 100%;
+    display: grid;
+}
+
+#article-text{
+    grid-row: 1;
+    grid-column: 1 / 6;
+    padding-right: 20px;
+    margin: 0;
+}
+
+#article-body img{
+    grid-row: 1;
+    grid-column: 7 / 10;
+    width: 100%;
+}
+
+#article-buttons{
+    padding: 10px 0;
+}
+
+#comment-parent{
+    padding-left: 5%;
+    width: 70%;
 }
 
 #left-section, #right-section{
@@ -69,12 +108,60 @@ body{
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 15px;
-    gap: 10px;
+    gap: 30px;
+    justify-content: flex-start;
+    font-family: 'Oxygen', sans-serif;
 }
 
-.rightcal{
+#left-section a{
+    text-decoration: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.right-calendar{
     border: 1px solid #777;
+}
+
+#news-bar {
+    width: 80%;
+}
+
+#news-bar:hover {
+    transition: 0.37s;
+}
+
+#news-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+#news-bar a:hover {
+    transition: 0.37s;
+    color: darkgray;
+    text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white, 0 0 4px white;
+}
+
+#login-container, #edit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#login-container button, #edit-container button{
+    font-size: 25px;
+    padding: 8px;
+}
+
+#contact-container{
+    padding: 10px;
+}
+
+#contact-container #image-contact{
+    text-align: center;
 }

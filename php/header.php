@@ -3,7 +3,7 @@
         <thead>
         <tr>
             <td class="tg-f8tv" id="header-logo" rowspan="4">
-                <img id="logo" src="../img/logo.png" alt="Logo">
+                <a href="/"><img id="logo" src="../img/logo.png" alt="Logo"></a>
             </td>
             <td class="tg-0lax" id="header-search-buttons">
                 <label for="searchbar"></label><input type="text" id="searchbar">
@@ -21,14 +21,45 @@
         </tr>
         <tr>
             <td class="tg-0lax" id="header-login">
-                <a href="#">Login</a>
+                <script>
+                    let user = sessionStorage.getItem("logged-in");
+                    let headerContainer = document.getElementById("header-login");
+                    if (user == null){
+                        headerContainer.innerHTML =
+                            "<a href='/login.php''>Login</a> | <a href='/contact.php'>Contact</a>"
+                    }
+                    else{
+                        headerContainer.innerHTML =
+                            "Hello, "+ user + " | <a href='/account_edit.php'>Edit account</a> | <a href='#' onclick='logout()'>Logout</a> | <a href='/contact.php'>Contact</a>"
+                    }
+                </script>
+
             </td>
         </tr>
         <tr>
             <td class="tg-0lax" id="header-news-bar">
-                Entries placeholder
+                <div id="news-bar">
+                    <marquee direction="left" scrollamount="10" behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+                        <a href="/article1.php">Omi-gone? Cases are now falling...</a>
+                        <span> --- </span>
+                        <a href="/article2.php">Yahoo workers in Japan are told...</a>
+                        <span> --- </span>
+                        <a href="/article3.php">Anti-vax father, 45, who ignored...</a>
+                        <span> --- </span>
+                        <a href="/article4.php">Twin pandas born at Tokyo zoo...</a>
+                    </marquee>
+                </div>
             </td>
         </tr>
         </thead>
     </table>
+    <script>
+        window.onload = function(){
+            if (localStorage.getItem("@dark-mode") === "true") darkmode();
+            if (localStorage.getItem("@alt-font") === "true") changefont();
+            if (localStorage.getItem("@high-contrast") === "true") highcontrast();
+            let fontSize = parseInt(localStorage.getItem("@font-size"));
+            if (fontSize > 0 || fontSize < 0) changesize(fontSize);
+        }
+    </script>
 </div>

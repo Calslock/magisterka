@@ -1,7 +1,3 @@
-#header{
-    background: black;
-}
-
 #header img{
     background: #b50000;
 }
@@ -10,19 +6,24 @@
     color: white;
 }
 
-#header-search-buttons input[type=text]{
+input[type=text], input[type=password]{
     border: 3px solid yellow;
 }
 
-#header-search-buttons button{
+#header-search-buttons button, #middle-section button{
     border: 3px solid yellow;
 }
 
-#left-section, #right-section {
+#left-section, #right-section, #middle-section, #header{
     border: 3px solid yellow;
     background: black;
+    color: white;
 }
 
-.rightcalendar{
+#left-section a, #right-section a, #middle-section a{
+    color: cyan;
+}
+
+.right-calendar{
     border: 3px solid yellow;
 }

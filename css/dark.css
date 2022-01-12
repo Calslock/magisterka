@@ -3,7 +3,16 @@ body{
     margin: 10px 10px;
 }
 
-#left-section, #right-section{
+#left-section, #right-section, #middle-section{
     border: 2px solid #e2e4e3;
     background: #191919;
+    color: darkgray;
+}
+
+#left-section a, #right-section a, #middle-section a{
+    color: antiquewhite;
+}
+
+#header{
+    background-color: #720000;
 }
