@@ -4,5 +4,6 @@ body{
 }
 
 #left-section, #right-section{
-    border: 2px solid white;
+    border: 2px solid #e2e4e3;
+    background: #191919;
 }

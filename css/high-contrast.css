@@ -18,6 +18,11 @@
     border: 3px solid yellow;
 }
 
-#left-section, #right-section{
+#left-section, #right-section {
+    border: 3px solid yellow;
+    background: black;
+}
+
+.rightcalendar{
     border: 3px solid yellow;
 }
