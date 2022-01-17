@@ -3,21 +3,22 @@
         <thead>
         <tr>
             <td class="tg-f8tv" id="header-logo" rowspan="4">
-                <a href="/bad/"><img id="logo" src="/img/logo.png" alt="Logo"></a>
+                <a href="/bad/"><img id="logo" src="/img/logo.png"></a>
             </td>
             <td class="tg-0lax" id="header-search-buttons">
                 <label for="searchbar"></label><input type="text" id="searchbar">
-                <button id="font-change" onclick="changefont()"><img src="/img/font-change.png" alt="Change font"></button>
-                <button id="font-small" onclick="changesize(-1)"><img src="/img/font-small.png" alt="Decrease font size"></button>
-                <button id="font-big" onclick="changesize(1)"><img src="/img/font-big.png" alt="Increase font size"></button>
-                <button id="night-mode" onclick="darkmode()"><img src="/img/night-mode.png" alt="Enable night mode"></button>
-                <button id="contrast" onclick="highcontrast()"><img src="/img/contrast.png" alt="High contrast mode"></button>
+                <button id="font-change" onclick="changefont()"><img src="/img/font-change.png"></button>
+                <button id="font-small" onclick="changesize(-1)"><img src="/img/font-small.png"></button>
+                <button id="font-big" onclick="changesize(1)"><img src="/img/font-big.png"></button>
+                <button id="night-mode" onclick="darkmode()"><img src="/img/night-mode.png"></button>
+                <button id="contrast" onclick="highcontrast()"><img src="/img/contrast.png"></button>
                 <input type="button" onclick="location.href='/';" value="good" />
             </td>
         </tr>
         <tr>
             <td class="tg-0lax" id="header-date">
                 <?php echo date("d.m.Y H:i"); ?>
+                <input type="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeu9r9swGo4REWKUiBBC-ExW5Pqd5EHHfGeIMJ0qNgTkdm4iA/viewform';" value="Ankieta" />
             </td>
         </tr>
         <tr>

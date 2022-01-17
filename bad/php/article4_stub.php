@@ -13,7 +13,7 @@
     <br>
     In a video released by the zoo, the cubs sit back to back on a tree, playing with bamboo, while visitors can be heard saying 'kawaii (cute)!' in the background. Xiao Xiao then cheekily steps on his sister to move up the tree.
 </p>
-<img src="/img/img4.png" alt="Xiao Xiao and Lei Lei">
+<img src="/img/img4.png">
 </div>
 <?php include_once("article_buttons.php"); ?>
 

@@ -13,6 +13,6 @@
 <br>
     Experts are now hopeful that the UK's outbreak will follow a similar trajectory to South Africa's, which was the first country to fall victim to the extremely-transmissible variant. Its cases have almost completely fizzled out over the past month.
 </p>
-<img src="/img/img1.png" alt="London Covid Cases by Date Reported">
+<img src="/img/img1.png">
 </div>
 <?php include_once("article_buttons.php"); ?>

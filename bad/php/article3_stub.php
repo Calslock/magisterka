@@ -16,6 +16,6 @@
     Born in Prilep, Gligor lived in Liverpool with Bilyana and their five-year-old daughter, working in a factory and as a delivery driver.
     <br>
     Paying tribute to the father-of-one, his friends described him as a generous man who was full of life and always talking about life's next adventure.</p>
-<img src="/img/img3.png" alt="Number of infections in UK per day">
+<img src="/img/img3.png">
 </div>
 <?php include_once("article_buttons.php"); ?>

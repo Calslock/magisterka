@@ -13,6 +13,6 @@
     <br>
     The new flexible working policy will also allow employees to commute by plane, an option which was not previously available to workers, a company statement explained.
 </p>
-<img src="/img/img2.png" alt="Yahoo Japan photo">
+<img src="/img/img2.png">
 </div>
 <?php include_once("article_buttons.php"); ?>

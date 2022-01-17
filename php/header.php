@@ -18,6 +18,7 @@
         <tr>
             <td class="tg-0lax" id="header-date">
                 <?php echo date("d.m.Y H:i"); ?>
+                <input type="button" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSeu9r9swGo4REWKUiBBC-ExW5Pqd5EHHfGeIMJ0qNgTkdm4iA/viewform';" value="Ankieta" />
             </td>
         </tr>
         <tr>
